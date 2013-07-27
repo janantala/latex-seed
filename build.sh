@@ -1,3 +1,6 @@
+#!/bin/bash
+# LaTex build script
+
 pdflatex -aux-directory="build" -output-directory="build" document
 cp bibliography.bib build
 cd build 
