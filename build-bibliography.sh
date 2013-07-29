@@ -1,5 +1,6 @@
 #!/bin/bash
 # LaTex build script
+# on .bib file change
 
 pdflatex -aux-directory="build" -output-directory="build" document
 cp bibliography.bib build
